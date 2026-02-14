@@ -11,7 +11,7 @@ function setup() {
 }
 
 function draw() {
-  background(120, 190, 255); // sky
+  background(212,232,245); // sky
 
   // ground
   fill(60, 200, 90);
@@ -33,7 +33,19 @@ function jump() {
 
 function keyPressed() {
   if (key === " ") jump();
+  
+  if (key == "d") moveRight();
+  
+  if (key == "a") moveLeft();
+  
 
+}
+
+function moveRight() {
+  x = x + 10;
+}
+function moveLeft() {
+  x = x - 10
 }
 
 
