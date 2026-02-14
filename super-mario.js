@@ -12,6 +12,7 @@ function setup() {
 
 function draw() {
   background(212,232,245); // sky
+  // changes to night time
   if (mouseIsPressed == true) 
     background(75,83,142)
 
@@ -41,7 +42,6 @@ function draw() {
   ellipse(250, 100, 60, 60)
   ellipse(220, 80, 70, 70)
   ellipse(270, 80, 70, 70)
-  //changes to night time
   
 }
 
